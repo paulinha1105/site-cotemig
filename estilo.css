@@ -1,0 +1,916 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {font-family: 'Lato', sans-serif;}
+#cell{
+    width: 100%;
+    height: 3%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    z-index: 10;
+}
+#cabecalho{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0; 
+    font-family: 'Lato', sans-serif;
+    left: 0;
+    margin-bottom: 5%;
+  
+}
+#fdp {
+    position: absolute;
+    left: 82%;
+    bottom: 50%;
+}
+#escritas ul li {
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+    font-weight: bolder;
+    line-height: 150px;
+    position: relative;
+    right: 19%;
+    bottom: 30%;
+    padding-left: 10px;
+    margin-top: -30%;
+}
+#logocima  {
+    margin-top: 2%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+#cabecalho li:hover{
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+    font-weight: bolder;
+}
+#tximagem {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2.375em;
+    font-weight: bolder;
+}
+#tx2 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+}
+#imagem{
+    margin-top: -18vh;
+    z-index: -10;
+}
+#fttx {
+    position: absolute;
+    left: 17%;
+    bottom: 70%;
+}
+#btnimg {
+    color: white;
+    cursor: pointer;
+    width: 15%;
+    background-color:  rgb(40, 192, 40);
+    padding: 0.7%;
+    position: absolute;
+    left: 17%;
+    bottom: 60%;
+    border-radius: 10px;
+    font-size: small;
+    text-align: center;
+}
+#txt1 {
+    text-align: center;
+    margin-top: 2.5%;
+}
+#frs1 {
+    font-size: 2.5em;
+}
+#frs2 {
+    font-size: 18px;
+    margin-top: 0.8%;
+    color: #424242;
+}
+#unidades {
+    position: absolute;
+    left: 22%;
+    text-align: center;
+    margin-top: 35%;
+}
+#nss {
+    font-size: 2.5em;
+}
+#ocot {
+    font-size: 18px;
+    margin-top: 2.8%;
+}
+#centra {
+    position: absolute;
+    left: 44%;
+    text-align: center;
+    margin-top: 67%;
+}
+#atend {
+    font-size: 20px;
+    color: #2e2e2e;
+    cursor: pointer;
+    position: absolute;
+    width: 130%;
+    right: 0.5%;
+}
+#tell {
+    font-size: 32px;
+    color: #40aa0b;
+    cursor: pointer;
+    position: relative;
+    bottom: 3vh;
+    right: 12%;
+    text-align: center;
+}
+#telefone {
+    position: relative;
+    right: 60%;
+    top: 44px;
+}
+#novi {
+    font-size: 2.5em;
+    text-align: center;
+    position: absolute;
+    top: 240%;
+    left: 36%;
+}
+#vertd {
+    cursor: pointer;
+    position: absolute;
+    top: 243%;
+    left: 86%;
+}
+#set {
+    position: absolute;
+    cursor: pointer;
+}
+#baixo {
+    width: 100%;
+    background-color: #2e2e2e;
+    position: absolute;
+    top: 310%;
+    height: 60%;
+    color: #bdbdbd;
+}
+#baixo li:hover  {
+    background-color: rgba(0, 0, 0.5, 0.5);
+    border-radius: 5px;
+    color: #bdbdbd;
+    text-align: left;
+    padding-top: 0.5%;
+    cursor: pointer;
+}
+#list1 {
+    width: 10%;
+    text-align: left;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    list-style: none;
+    padding-top: 0.5%;
+    cursor: pointer;
+    font-size: .875em;
+}
+#tp1{
+    font-size: 1.125em;
+    position: absolute;
+    left: 10%;
+    top: 14%;
+    text-align: left;
+}
+#tp2 {
+    font-size: 1.125em;
+    position: absolute;
+    left: 28%;
+    top: 14%;
+    text-align: left;
+}
+#list2 {
+    width: 15%;
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    list-style: none;
+    text-align: left;
+    padding-top: 0.5%;
+    font-size: .875em;
+    cursor: pointer;
+}
+#tp3 {
+    font-size: 1.125em;
+    position: absolute;
+    left: 49%;
+    top: 14%;
+    text-align: left;
+}
+#list3 {
+    width: 15%;
+    position: absolute;
+    top: 22%;
+    left: 48%;
+    list-style: none;
+    text-align: left;
+    padding-top: 0.5%;
+    cursor: pointer;
+    font-size: .875em;
+}
+#tp4 {
+    font-size: 1.125em;
+    position: absolute;
+    left: 69%;
+    top: 14%;
+    text-align: left;
+}
+#tp5 {
+    position: absolute;
+    left: 69%;
+    top: 24%;
+    text-align: left;
+    font-size: 16px;
+}
+#btn2 {
+    position: absolute;
+    left: 69%;
+    top: 44%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #40aa0b;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    padding: 0.51em;
+}
+#linha {
+    position: absolute;
+    top: 55%;
+    width: 86%;
+    left: 9%;
+    opacity: .50;
+}
+#logo2 {
+    position: absolute;
+    top: 59%;
+    left: 10%;
+    cursor: pointer;
+}
+#descricao {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    font-size: .75em;
+    color: #fff;
+}
+#colegiocot {
+    position: absolute;
+    top:59%;
+    left: 40%;
+}
+#fb {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    padding: 0.65%;
+    background-color: #4460a0;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#insta {
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    padding: 0.65%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#linkedin {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    padding: 0.36%;
+    background-color: #007ab9;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#tt {
+    position: absolute;
+    top: 70%;
+    left: 58.5%;
+    padding: 0.85%;
+    background-color: #00aaec;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#facul {
+    position: absolute;
+    top:59%;
+    left: 70%;
+}
+#face {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    padding: 0.65%;
+    background-color: #4460a0;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#instagram {
+    position: absolute;
+    top: 70%;
+    left: 76%;
+    padding: 0.65%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#in {
+    position: absolute;
+    top: 70%;
+    left: 82%;
+    padding: 0.36%;
+    background-color: #007ab9;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#twitter {
+    position: absolute;
+    top: 70%;
+    left: 88.5%;
+    padding: 0.85%;
+    background-color: #00aaec;
+    border-radius: 8px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+#chat {
+    color: white;
+    position: sticky;
+    top: 100%;
+    width: 15%;
+    text-align: center;
+    left: 75%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    background-color:  #60A040;
+    padding: 0.30%;
+    transform: initial;
+    transition: box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#chat:hover {
+    transform: scale(1.15);
+}
+#imginf {
+    position: absolute;
+    top: 253%;
+    width: 95%;
+    height: 50%;
+    left: 5%;
+    cursor: pointer;
+}
+#img1 {
+    position: absolute;
+    left: 1%;
+    width: 22%;
+    height: 100%;
+    border-radius: 20px;
+    transition: box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+#doccot {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 3%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+}
+#ma {
+    font-size: 0.8em;
+    color: white;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 3%;
+    top: 82%;
+    display: flex;
+    align-items: center;
+}
+#img1:hover{
+    transform: scale(1.03);
+}
+#img2 {
+    position: absolute;
+    transition: box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    left: 24%;
+    width: 22%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#cargos {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    width: 22%;
+    height: 20%;
+    left: 26%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+}
+#abril {
+    font-size: 0.8em;
+    color: white;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 26%;
+    top: 82%;
+    display: flex;
+    align-items: center;
+}
+#img2:hover{
+    transform: scale(1.03);
+}
+#img3{    
+    position: absolute;
+    left: 47%;
+    width: 22%;
+    height: 100%;
+    border-radius: 20px;
+    transition: box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+}
+#cotparceria {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    width: 17%;
+    height: 20%;
+    left: 49%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+}
+#marco {
+    font-size: 0.8em;
+    color: white;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 49%;
+    top: 84%;
+    display: flex;
+    align-items: center;
+}
+#img3:hover{
+    transform: scale(1.03);
+}
+#img4{
+    position: absolute;
+    left: 70%;
+    border-radius: 20px;
+    width: 22%;
+    height: 100%;
+    transition: box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1), transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+}
+#connect {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    width: 22%;
+    height: 20%;
+    left: 72%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+}
+#janeiro {
+    font-size: 0.8em;
+    color: white;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 72%;
+    top: 84%;
+    display: flex;
+    align-items: center;
+}
+#img4:hover{
+    transform: scale(1.03);
+}
+#imgmeio {
+    position: absolute;
+    top: 179%;
+    width: 100%;
+    height: 45%;
+    cursor: pointer;
+}
+#primeira:hover {
+    transform: scale(1.08);
+    transform: scaleY(1.09);
+}
+#primeira {
+    position: absolute;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.5);
+    left: 10%;
+    height: 80%;
+    width: 25%;
+    border-radius: 10px;    
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#imgmeio1 {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+#segunda {
+    position: absolute;
+    border: solid 1px;
+    left: 38%;
+    border-color: rgba(0, 0, 0, 0.5);
+    height: 80%;
+    width: 25%;
+    border-radius: 10px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#segunda:hover {
+    transform: scale(1.08);
+    transform: scaleY(1.09);
+}
+#imgmeio2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#terceira {
+    position: absolute;
+    border: solid 1px;
+    left: 66%;
+    height: 80%;
+    width: 25%;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#terceira:hover {
+    transform: scale(1.08);
+    transform: scaleY(1.09);
+}
+#imgmeio3 {
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#titulo1 {
+    position: absolute;
+    color: #424242;
+    font-size: 18.8px;
+}
+#titulo2 {
+    position: absolute;
+    color: #424242;
+    font-size: 18.8px;
+    left: 4%;
+}
+#titulo3{
+    position: absolute;
+    color: #424242;
+    font-size: 18.8px;
+    left: 4%;
+}
+#localiza {
+    top: 73%;
+    position: absolute;
+    right: 90%;
+}
+#rua {
+    position: absolute;
+    top: 73.4%;
+    left: 13%;
+    color: #424242;
+}
+#imgsup {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 93%;
+    right: 4%;
+}
+#turminhs {
+    position: absolute;
+    left: 5%;
+    width: 24%;
+    height: 55%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ 
+#turminha {
+    color: white;
+    position: absolute;
+    left: 6%;
+    top: 34%;
+    width: 16%;
+    font-size: 1.375em;
+    font-weight: bold;
+}   
+#imagem1 {
+    cursor: pointer;
+}
+#escritas {
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+#sla1 {
+    border-radius: 10px;
+    cursor: pointer;
+}
+#sla2 {
+    position: absolute;
+    left: 11%;
+    bottom: 10%;
+}
+#sla2:hover{
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#sla3 {
+    position: absolute;
+    left: 59.8%;
+    top: 15%;
+    cursor: pointer;
+}
+#sla4 {
+    position: absolute;
+    top: 80%;
+    width: 2.5%;
+    height: 10%;
+    left: 6%;
+    border-radius: 10px;
+}
+#sla5 {
+    position: absolute;
+    top: 82%;
+    left: 10%;
+}
+#sla5:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#sla6 {
+    position: absolute;
+    top: 83%;
+    left: 27.4%;
+    cursor: pointer;
+}
+#inove {
+    position: absolute;
+    left: 28%;
+    width: 23%;
+    top: 93.05%;
+    height: 27.4%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#sla7 {
+    position: absolute;
+    color: white;
+    left: 29%;
+    top: 113%;
+    width: 16%;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+#imagem2 {cursor: pointer;}
+#essa {
+    position: absolute;
+    left: 29%;
+    top: 123%;
+    border-radius: 10px;
+    width: 2.5%;
+    height: 5%;
+    cursor: pointer;
+}
+#porra {
+    position: absolute;
+    left: 32%;
+    top: 125%;
+}
+#para:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#de {
+    position: absolute;
+    left: 48%;
+    top: 124.9%;
+    cursor: pointer;
+}
+#codigo {
+    position: absolute;
+    left: 29%;
+    top: 133%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ta {
+    position: absolute;
+    left: 32%;
+    top: 134.5%;
+}
+#ta:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#comecando {
+    position: absolute;
+    left: 48%;
+    top: 134.9%;
+    cursor: pointer;
+}#a-me {
+    position: absolute;
+    left: 29%;
+    top: 142%;
+    border-radius: 10px;
+    width: 2.5%;
+    height: 5%;
+    cursor: pointer;
+}
+#iiritar {
+    position: absolute;
+    left: 32%;
+    top: 143.5%;
+}
+#iiritar:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#lele {
+    position: absolute;
+    left: 48%;
+    top: 142.9%;
+    cursor: pointer;
+}
+#imagem3 {cursor: pointer;}
+#pos {
+    position: absolute;
+    left: 53%;
+    width: 23%;
+    top: 93.05%;
+    height: 27.4%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#graduacoes {
+    position: absolute;
+    color: white;
+    left: 54.5%;
+    top: 113.4%;
+    width: 16%;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+#merdinha {
+    position: absolute;
+    left: 53.5%;
+    top: 123%;
+    border-radius: 10px;
+    width: 2.5%;
+    height: 5%;
+    cursor: pointer;
+}
+#cu {
+    position: absolute;
+    left: 57%;
+    top: 123%;
+}
+#doido:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#setinha {
+    position: absolute;
+    left: 74%;
+    top: 122.9%;
+    cursor: pointer;
+}
+#mulher {
+    position: absolute;
+    left: 53.5%;
+    top: 133%;
+    border-radius: 10px;
+    width: 2.5%;
+    height: 5%;
+    cursor: pointer;
+}
+#vsf {
+    position: absolute;
+    left: 57%;
+    top: 132%;
+}
+#vsf:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#setinha2 {
+    position: absolute;
+    left: 74%;
+    top: 132.9%;
+    cursor: pointer;
+}
+#lugar {
+    cursor: pointer;
+}
+#celulazinho {
+    position: absolute;
+    left: 78%;
+    width: 21.5%;
+    top: 93.05%;
+    height: 27.4%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#media {
+    position: absolute;
+    color: white;
+    left: 78.9%;
+    top: 110.4%;
+    width: 20%;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+#imagem4 {cursor: pointer;}
+#finalmente2 {
+    position: absolute;
+    left: 79%;
+    top: 124%;
+    border-radius: 10px;
+    width: 2.5%;
+    height: 5%;
+    cursor: pointer;
+}
+#finalmente3 {
+    position: absolute;
+    left: 83%;
+    width: 14%;
+    top: 124%;
+}
+#finalmente:hover {
+    cursor: pointer;
+    transition: all .2s linear;
+    color: rgb(40, 192, 40);
+}
+#setinha3 {
+    position: absolute;
+    left: 97%;
+    top: 123.9%;
+    cursor: pointer;
+}
